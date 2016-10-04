@@ -127,7 +127,7 @@ fax-container{
     margin:0 50px;
   }
 }
-}@media (min-width: 992px) {
+}@media (min-width: 500px) {
   .timeline-panel{
     margin:0 50px;
   }
