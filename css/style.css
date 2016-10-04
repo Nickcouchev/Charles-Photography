@@ -1,0 +1,65 @@
+.services-container{
+    position: relative;
+    bottom: 55px;
+}
+
+.services-button{
+    position: relative;
+    top: 50px;
+}
+.product-img{
+    height: 238px;
+    max-height: inherit;
+    max-width: 400px;
+    width: 100%;
+}
+.team-img{
+    width: 235px;
+    height: 235px;
+}
+.team-row{
+    left: 50%;
+    margin-left: -50px;
+    
+}
+.team-member{
+    position: relative;
+    left: 50%
+}
+.contact-img-cont{
+    position: relative;
+    top: 25px;
+    width: 100px;
+    
+}
+fax-container{
+    position: relative;
+}
+.fax-container i{
+    position: absolute;
+    bottom: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
