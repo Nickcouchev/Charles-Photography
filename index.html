@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Products</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Contact Us</a>
@@ -102,6 +102,11 @@
                     </span>
                     <h4 class="service-heading">Photography</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div class="services-button">
+                        <a href="#photography-modal" class="portfolio-link btn btn-xl" data-toggle="modal">
+                            Photography
+                        </a>      
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -110,6 +115,11 @@
                     </span>
                     <h4 class="service-heading">Filming</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <div class="services-button">
+                        <a href="#filming-modal" class="portfolio-link btn btn-xl" data-toggle="modal">
+                            Filming
+                        </a>      
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -118,20 +128,121 @@
                     </span>
                     <h4 class="service-heading">Printing</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="services-button">
-                    <a href="#services" class="page-scroll btn btn-xl">More Details</a>
+                    <div class="services-button">
+                        <a href="#printing-modal" class="portfolio-link btn btn-xl" data-toggle="modal">
+                            Printing
+                        </a>      
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    <!-- Services Modals -->
+    <!-- Use the modals below to showcase details about your servies! -->
+    
+    <!-- Photography -->
+    <div class="portfolio-modal modal fade" id="photography-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-camera fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h2>Photography</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/products/portrait.jpg" alt="">
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vel nisi quis libero faucibus imperdiet. Curabitur scelerisque tempus lobortis. Nunc imperdiet blandit augue, eu commodo tortor feugiat ut. Cras dignissim bibendum est, ac pharetra eros sagittis nec. Quisque vitae elit ac urna tristique sagittis. Maecenas nec diam id libero viverra cursus. Nunc gravida nec tortor non condimentum. Nam ullamcorper volutpat condimentum. Morbi porttitor lacinia libero sagittis facilisis.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Filming -->
+    <div class="portfolio-modal modal fade" id="filming-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-film fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h2>Filming</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/products/portrait.jpg" alt="">
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vel nisi quis libero faucibus imperdiet. Curabitur scelerisque tempus lobortis. Nunc imperdiet blandit augue, eu commodo tortor feugiat ut. Cras dignissim bibendum est, ac pharetra eros sagittis nec. Quisque vitae elit ac urna tristique sagittis. Maecenas nec diam id libero viverra cursus. Nunc gravida nec tortor non condimentum. Nam ullamcorper volutpat condimentum. Morbi porttitor lacinia libero sagittis facilisis.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Printing -->
+    <div class="portfolio-modal modal fade" id="printing-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-print fa-stack-1x fa-inverse"></i>
+                                </span>
+                                <h2>Printing</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/products/portrait.jpg" alt="">
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vel nisi quis libero faucibus imperdiet. Curabitur scelerisque tempus lobortis. Nunc imperdiet blandit augue, eu commodo tortor feugiat ut. Cras dignissim bibendum est, ac pharetra eros sagittis nec. Quisque vitae elit ac urna tristique sagittis. Maecenas nec diam id libero viverra cursus. Nunc gravida nec tortor non condimentum. Nam ullamcorper volutpat condimentum. Morbi porttitor lacinia libero sagittis facilisis.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Products</h2>
+                    <h2 class="section-heading">Portfolio</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -408,7 +519,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>    
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
